@@ -54,7 +54,7 @@ CHUNK_SEPARATOR = "\n"
 # ==========================================
 # RAG参照用のデータソース系
 # ==========================================
-RAG_TOP_FOLDER_PATH = "./data"
+RAG_TOP_FOLDER_PATH = "../data"
 SUPPORTED_EXTENSIONS = {
     ".pdf": PyMuPDFLoader,
     ".docx": Docx2txtLoader,
